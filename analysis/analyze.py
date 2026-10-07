@@ -75,7 +75,7 @@ def main(path):
     regions.sort(key=lambda r: r["adoption_dec2025"])
     gap_total = sum(r["users_to_reach_65"] for r in regions)
     for r in regions:
-        r["share_of_remaining_gap_pct"] = round(r["users_to_reach_65"] / gap_total * 100, 1)
+        r["share_of_remaining_gap_pct"] = round(r["users_to_reach_65"] / gap_total * 100, 2)
 
     out_csv = os.path.join(os.path.dirname(os.path.abspath(__file__)), "regional_gap_dec2025.csv")
     with open(out_csv, "w", newline="", encoding="utf-8") as f:

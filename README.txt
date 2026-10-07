@@ -119,7 +119,8 @@ Assisted channels (branch and call centre) still handle about 34% of
 transactions in the priority regions. In 2025 an assisted transaction cost
 SAR 23-24, compared with SAR 15-16 online, and satisfaction was lower
 (CSAT 3.8 against 4.0-4.1 online). Complaints is the weakest service in the
-below-target regions, at 58.8% digital.
+below-target regions, at 58.8% digital. (Channel cost, CSAT and service
+figures come from analysis/analyze.py, run on the same dataset.)
 
 The full table is in analysis/regional_gap_dec2025.csv.
 
@@ -188,5 +189,6 @@ analysis/regional_gap_dec2025.csv    regional gap table (output of analyze.py)
 
 TEAM
 ----
-Naif Alnasser    Tableau dashboard, Situation, Complication and Evidence
-Muaied Alsharef  Options, Recommendation and the Ask
+Naif Alnasser    (GitHub: Naif-aln)         Tableau dashboard, Situation,
+                                            Complication and Evidence
+Muaied Alsharef  (GitHub: MuaiedAlsharef)   Options, Recommendation and the Ask
