@@ -191,4 +191,4 @@ TEAM
 ----
 Naif Alnasser    (GitHub: Naif-aln)         Tableau dashboard, Situation,
                                             Complication and Evidence
-Muaied Alsharef  (GitHub: MuaiedAlsharef)   Options, Recommendation and the Ask
+Muaied Alsharef  (GitHub: MuaiedAlsharef)   Options, Recommendation and the Ask (slides 5-7)
