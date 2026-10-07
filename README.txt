@@ -1,7 +1,7 @@
 TAYSEER: WHERE THE NEXT SAR 40M SHOULD GO
 SDAIA Academy - SDA-DSC-112 Data Visualization & Storytelling - Capstone Project
 
-Team: Naif Alnasser, [Partner name]
+Team: Naif Alnasser, Muaied Alsharef
 SDAIA Academy on GitHub: https://github.com/SDAIAAcademy
 
 
@@ -138,11 +138,11 @@ title, and the speaker notes give the script, timing and presenter.
      still below 65%, shown on a regional map
   4  Evidence: Najran, Northern Borders, Al-Baha and      Naif Alnasser    2:00-4:00
      Jazan hold 84% of the remaining gap
-  5  Options: three ways to spend SAR 40M, compared in    [Partner name]   4:00-5:15
+  5  Options: three ways to spend SAR 40M, compared in    Muaied Alsharef  4:00-5:15
      one table
-  6  Recommendation: SAR 36M split by gap + SAR 4M        [Partner name]   5:15-6:15
+  6  Recommendation: SAR 36M split by gap + SAR 4M        Muaied Alsharef  5:15-6:15
      reserve
-  7  Ask + next step: approve now, checkpoint at month    [Partner name]   6:15-7:00
+  7  Ask + next step: approve now, checkpoint at month    Muaied Alsharef  6:15-7:00
      6, target at month 12
 
 
@@ -189,4 +189,4 @@ analysis/regional_gap_dec2025.csv    regional gap table (output of analyze.py)
 TEAM
 ----
 Naif Alnasser    Tableau dashboard, Situation, Complication and Evidence
-[Partner name]   Options, Recommendation and the Ask
+Muaied Alsharef  Options, Recommendation and the Ask
