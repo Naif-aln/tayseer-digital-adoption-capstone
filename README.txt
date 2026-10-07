@@ -72,12 +72,26 @@ Sheets:
   Tayseer - Digital Adoption   The dashboard: KPI on top, regional bar chart
                                below, a Region filter (multiple-values
                                dropdown, default All) and the color legend.
+  National Trend               Monthly national adoption, Jan 2022 to Dec 2025,
+                               with the 65% target line (54.1% to 66.2%).
+  Target Gaps                  Each below-target region's share of the
+                               remaining gap to 65% (Dec 2025): Najran 31%,
+                               Northern Borders 20%, Al-Baha 17%, Jazan 16%.
+  Tayseer - Evidence           Second dashboard: National Trend above
+                               Target Gaps.
+
+Evidence dashboard:
+https://public.tableau.com/app/profile/naif.alnasser/viz/TayseerDigitalAdoption/TayseerEvidence
 
 Calculated fields:
   Digital Adoption % = SUM([Digital Adoption Pct] / 100 * [Unique Users])
                        / SUM([Unique Users]) * 100
   Target Status      = IF [Digital Adoption %] < 65 THEN "Below Target"
                        ELSE "On/Above Target" END
+  Users to Reach 65  = IF [Digital Adoption %] < 65 THEN
+                       (65 - [Digital Adoption %]) / 100 * SUM([Unique Users]) END
+  Share of Remaining Gap % = [Users to Reach 65]
+                       / WINDOW_SUM([Users to Reach 65]) * 100
 
 Adoption is weighted by unique users, so large regions count more than small
 ones.
@@ -92,7 +106,7 @@ Al-Baha           62.8%      2.2 pts      17%            ~7
 Jazan             63.0%      2.0 pts      16%            ~8
 Asir              64.4%      0.6 pts      7%             ~3
 Tabuk             64.5%      0.5 pts      5%             ~2
-Hail              64.7%      0.3 pts      3%             ~1
+Hail              64.7%      0.3 pts      2%             ~1
 Al-Jouf           64.8%      0.2 pts      2%             <1
 
 Qassim, Madinah, Eastern Province, Makkah and Riyadh are already at or above
