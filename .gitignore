@@ -1,0 +1,9 @@
+# Course dataset is provided by SDAIA Academy and not redistributed here
+*.csv
+!analysis/regional_gap_dec2025.csv
+
+# Office lock files and OS clutter
+~$*
+.DS_Store
+Thumbs.db
+__pycache__/
